@@ -133,6 +133,7 @@ body {
 
 .btn-search {
   padding: 2px 5px;
+  cursor: pointer;
 }
 .people-box {
   align-items: center;

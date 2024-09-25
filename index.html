@@ -50,15 +50,15 @@
                     <h3>Join Linkedin today</h3>
                     <form class="join-form">
                       <div>
-                        <label for="fname">First Name:</label>
+                        <label for="fname" id="fname">First Name:</label>
                         <input type="text" />
                       </div>
                       <div>
-                        <label for="lname">Last Name:</label>
+                        <label for="lname" id="lname">Last Name:</label>
                         <input type="text" />
                       </div>
                       <div>
-                        <label for="email">Email:</label>
+                        <label for="email" id="email">Email:</label>
                         <input type="text" />
                       </div>
                       <div>
@@ -77,12 +77,14 @@
               <section class="search-container">
                 <div class="search-content">
                   <form class="search-form">
-                    <label for="label-name">Search for someone by name:</label>
+                    <label for="label-name" id="label-name"
+                      >Search for someone by name:</label
+                    >
                     <div>
-                      <input type="f-name" placeholder="First Name" />
+                      <input type="search" placeholder="First Name" />
                     </div>
                     <div>
-                      <input type="l-name" placeholder="Last Name" />
+                      <input type="search" placeholder="Last Name" />
                     </div>
                     <div>
                       <button class="btn-search">Go</button>
@@ -164,15 +166,15 @@
         </div>
       </div>
       <div class="copyright-box">
-        <p>
-          Linkedin Corporation &copy 2008 <a href="#">User agreement</a
+        <small>
+          Linkedin Corporation &copy2008 <a href="#">User agreement</a
           ><a href="#">Privacy Policy</a><a href="#">Copyright Policy</a>
-        </p>
-        <p>
+        </small>
+        <small>
           User of this site is subject to express
           <a href="#">terms of use</a>, which prohibited commercial use of this
           site. By continuing past this page, you agree to abide by these terms.
-        </p>
+        </small>
       </div>
     </div>
   </body>
